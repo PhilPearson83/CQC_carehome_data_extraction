@@ -39,7 +39,9 @@ def getCareHomes():
     print(dfz.info())
     print('%s seconds' % (time.time() - start_time))
 # check csv file exist, if any are missing, create new data
-if os.path.exists('cqc_care_homes.csv') == False:
+if os.path.exists('cqc_care_homes.csv') == True:
+    print('***CQC care homes csv already exists***')
+elif os.path.exists('cqc_care_homes.csv') == False:
     getCareHomes()
-    print('***CQC care home csv generated***')
-print('***CQC care home csv already exists***')
+    print('***CQC care homes csv generated***')
+    
