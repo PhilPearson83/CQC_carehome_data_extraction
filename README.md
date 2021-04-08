@@ -18,7 +18,8 @@ _Contents:_ **[Directory Layout](#Directory-Layout)** | **[Installation](#instal
 ├── Licence
 ├── README.md
 ├── care_home_extraction.py
-└── qc_care_homes.csv
+├── cqc_care_homes.csv
+└── requirements.txt
 ```
 
 ### Installation
