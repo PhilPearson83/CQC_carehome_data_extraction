@@ -15,7 +15,7 @@ _Contents:_ **[Directory Layout](#Directory-Layout)** | **[Installation](#instal
 ```
 .
 ├── .gitignore
-├── Licence
+├── License
 ├── README.md
 ├── care_home_extraction.py
 ├── cqc_care_homes.csv
